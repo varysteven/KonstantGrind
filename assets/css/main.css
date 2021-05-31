@@ -814,6 +814,10 @@ input, select, textarea {
 			margin-left: 100%;
 		}
 
+		.flex-center {
+			justify-content: center;
+		}
+
 		.row.gtr-0 {
 			margin-top: 0;
 			margin-left: 0em;
@@ -2215,6 +2219,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -3191,7 +3196,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 5em 0 4em 0;
 	}
 
 		.wrapper.style2 {
@@ -3386,6 +3391,10 @@ input, select, textarea {
 			margin: 0;
 		}
 
+		h1 img {
+			width: 22em;
+		}
+
 		#header nav {
 			position: relative;
 			margin: 0 auto;
@@ -3519,7 +3528,7 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
+		padding: 3em 0;
 		text-align: center;
 	}
 
@@ -3745,6 +3754,10 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+			h1 img {
+				width: 16em;
 			}
 
 			h2 {
@@ -4052,7 +4065,7 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				padding: 0;
+				padding: 0 1em;
 			}
 
 		/* Spotlight */
