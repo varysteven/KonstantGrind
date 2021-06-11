@@ -677,6 +677,11 @@ input, select, textarea {
 
 		}
 
+/* Testimonials */
+	.testimonial {
+		display: flex;
+	}
+
 /* Row */
 
 	.row {
@@ -4053,6 +4058,18 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+
+		.testimonial {
+			display: block;
+		}
+
+		.image.left {
+			float: none;
+			display: block;
+			margin: 0 auto 2em auto;
+			width: 100%;
+			max-width: 80%;
+		}
 
 		/* Basic */
 
