@@ -1,2 +1,2 @@
 # KonstantGrind
-Website for Konstant Grind personal training.
+Konstant Grind personal training: KonstantGrind.com
