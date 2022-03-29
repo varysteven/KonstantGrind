@@ -681,6 +681,10 @@ input, select, textarea {
 	.testimonial {
 		display: flex;
 	}
+	
+	.testimony-p {
+		font-size: 2em;
+	}
 
 /* Row */
 
