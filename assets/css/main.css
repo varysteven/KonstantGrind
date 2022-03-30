@@ -684,7 +684,14 @@ input, select, textarea {
 	
 	.testimony-p {
 		font-size: 2em;
+		text-allign: center;
 	}
+	
+	.testimony-n {
+		font-size: 1.5em;
+		text-allign: center;
+	}
+
 
 /* Row */
 
